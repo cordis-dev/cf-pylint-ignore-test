@@ -13,7 +13,7 @@ ignore=CVS
 
 # Add files or directories matching the regex patterns to the blacklist. The
 # regex matches against base names, not paths.
-ignore-patterns=
+ignore-patterns=t.py
 
 # Pickle collected data for later comparisons.
 persistent=yes
@@ -21,8 +21,6 @@ persistent=yes
 # List of plugins (as comma separated values of python modules names) to load,
 # usually to register additional checkers.
 load-plugins=pylint_django
-
-ignore-patterns=t.py
 
 # Use multiple processes to speed up Pylint.
 jobs=1
