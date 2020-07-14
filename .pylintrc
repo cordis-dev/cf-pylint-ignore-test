@@ -22,6 +22,8 @@ persistent=yes
 # usually to register additional checkers.
 load-plugins=pylint_django
 
+ignore-patterns=t.py
+
 # Use multiple processes to speed up Pylint.
 jobs=1
 
